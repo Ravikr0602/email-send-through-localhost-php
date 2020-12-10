@@ -1,9 +1,11 @@
 <?php
 
-$to_email = "ravikr0602@gmail.com";
+// to_mail means sender email address
+$to_email = "ravikr@gmail.com";
 $subject = "Check message to delivery";
-$body = "Hi, Ravi kumar this email is represent to check message is gone through php xampp server.. ";
-$from = "ravikumar060296@gmail.com";
+$body = "Hi, User this email is represent to check message is gone through php xampp server.. ";
+// from means Your email that your gave you in localhost 
+$from = "youremail@gmail.com";
 $headers ="From:" .$from;
 
 if(mail($to_email, $subject, $body, $headers))
